@@ -13,8 +13,10 @@ Modified design of navbar for mobile and tablet screen.
 	- side-nav-right.js : For side nav from right side.
 	- side-nav-left.js : For side nav from left side.
 5. Put the selected .css file in the css directory and link to the html file.
+
 	<link rel="stylesheet" href="directory_name/side-nav-left|right.css">
 6. Put the selected .js file in the javascript directory and link to the html file (Link jQuery first).
+
 	<script src="directory_name/side-nav-left|right.js"></script> 
 7.  Now search for "navbar-nav" class.
 8.  Add "changing-nav" class with "navbar-nav" class.	
